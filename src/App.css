@@ -38,5 +38,31 @@
 }
 
 html {
-background-color: azure;
+background-color: rgb(164, 190, 190);
+}
+
+
+
+/* team builder */
+
+div#Teambuilder{
+  background-color: rgb(252, 252, 252);
+  width: 370px;
+  height: 290px;
+  margin: 0px;
+  position: relative; top: -460px; right: -531px;
+  border-radius: 10px;
+  border-top-style: solid;
+  border-color: hsl(0, 78%, 62%);
+  border-top-width: thick;
+}
+
+
+img#tblogo{
+  position: relative; top: 65px; right: -120px;
+}
+
+h1,h2,h3,h4,h5,h6,p {
+  font-family: 'Poppins', sans-serif;
+
 }

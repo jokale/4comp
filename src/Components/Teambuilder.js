@@ -5,9 +5,10 @@ class Teambuilder extends React.Component {
     render(){
         return(
             <div id="Teambuilder">
-                <h4>Teambuilder</h4>
+                <br></br>
+                <h4 id="tb">Teambuilder</h4>
                 <p>Scans our talent to create an optimal team <br></br>for your project </p>
-                <img src={logoteamb} id="s-logo" alt="logo" />
+                <img src={logoteamb} id="tblogo" alt="logo" />
 
             </div>
         )

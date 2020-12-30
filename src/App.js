@@ -1,5 +1,9 @@
 import React from 'react'
 import './App.css';
+import Calculator from './Components/Calculator';
+import Karma from './Components/Karma';
+import Supervisor from './Components/Supervisor';
+import Teambuilder from './Components/Teambuilder';
 
 class App extends React.Component {
   render(){return (
@@ -8,6 +12,10 @@ class App extends React.Component {
       <h3 id="skinny">Reliable, effecient delivery</h3>
       <h3 id="bold">Powered by Technology</h3>
       <p> Our Artificial intelligence powered by tools use millions of porject data <br></br>points to ensure that your project is successful</p>
+      <Karma/>
+      <Calculator/>
+      <Supervisor/>
+      <Teambuilder/>
     </div>
   );
 }
