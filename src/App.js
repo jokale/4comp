@@ -13,9 +13,13 @@ class App extends React.Component {
       <h3 id="bold">Powered by Technology</h3>
       <h6 id="skinny"> Our Artificial intelligence powered by tools use millions of porject data <br></br>points to ensure that your project is successful</h6>
       <Karma/>
-      {/* <Calculator/>
-      <Supervisor/> */}
+      <Calculator/>
+      <Supervisor/>
       <Teambuilder/>
+      <br></br>
+      <div id="footer">
+      <h1 id="white">jo</h1>
+      </div>
     </div>
   );
 }

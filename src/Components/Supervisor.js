@@ -5,9 +5,9 @@ class Supervisor extends React.Component {
     render(){
         return(
             <div id="super">
-                <h4>Supervisor</h4>
+                <h3>Supervisor</h3>
                 <p>Monitors activity to identify project roadblocks</p>
-                <img src={logos} id="s-logo" alt="logo" />
+                <img src={logos} id="slogo" alt="logo" />
 
             </div>
         )

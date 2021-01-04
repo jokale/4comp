@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  padding-bottom: 10px
 }
 
 .App-logo {
@@ -39,6 +40,7 @@
 
 html {
 background-color: hsl(0, 0%, 98%);
+background-size: cover;
 }
 
 
@@ -114,38 +116,56 @@ img#klogo{
 }
 
 
-
-/* calculator */
-
-div#Calc {
-  background-color: rgb(252, 252, 252);
-  width: 370px;
-  height: 290px;
-  margin: 0px;
-  position: relative; top: -200px; right: -1030px;
-  border-radius: 10px;
-  border-top-style: solid;
-  border-color: hsl(212, 86%, 64%);
-  border-top-width: thick;
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-
-}
-
-
+/* super  */
 
 div#super {
   background-color: rgb(252, 252, 252);
-  width: 370px;
-  height: 290px;
+  width: 290px;
+  height: 200px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 40px;
   margin: 0px;
-  position: relative; top: -290px; right: -103px;
+  position: absolute; top: 480px; right: 935px;
   border-radius: 10px;
   border-top-style: solid;
   border-color: hsl(180, 62%, 55%);
   border-top-width: thick;
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  text-align: left;
 
 }
+
+img#slogo{
+  position: absolute; top: 150px; right: 33px;
+}
+
+
+/* calculator */
+
+div#Calc {
+  background-color: rgb(252, 252, 252);
+  width: 290px;
+  height: 200px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 40px;
+  margin: 0px;
+  position: absolute; top: 480px; right: 115px;
+  border-radius: 10px;
+  border-radius: 10px;
+  border-top-style: solid;
+  border-color: hsl(212, 86%, 64%);
+  border-top-width: thick;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  text-align: left;
+}
+
+
+
+
+
+/* text  */
 
 h1,h2,h3,h4,h5,h6{
   font-family: 'Poppins', sans-serif;
@@ -159,4 +179,15 @@ p{
   font-weight: 400;
   font-size: small;
 
+}
+
+
+div#footer {
+  position: absolute; top: 900px; right: 525px;
+  padding-bottom: 90px;
+  color: white;
+}
+
+h1#white {
+  color: hsl(0, 0%, 98%);
 }

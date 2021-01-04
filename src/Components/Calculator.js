@@ -5,9 +5,9 @@ class Calculator extends React.Component {
     render(){
         return(
             <div id="Calc">
-                <h4>Calculator </h4>
+                <h3>Calculator </h3>
                 <p>Uses data from past projects to provide better project estimates</p>
-                <img src={logocalc} id="s-logo" alt="logo" />
+                <img src={logocalc} id="slogo" alt="logo" />
 
             </div>
         )
