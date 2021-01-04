@@ -38,11 +38,25 @@
 }
 
 html {
-background-color: rgb(164, 190, 190);
+background-color: hsl(0, 0%, 98%);
 }
 
 
-
+/* mainpage */
+h3#skinny{
+  font-weight: 400;
+  font-size: x-large;
+  color: grey;
+}
+h3#bold {
+  font-weight: 700;
+  font-size: xx-large;
+}
+p#skinny{
+  font-weight: 200;
+  font-size: small;
+  color: grey;
+}
 /* team builder */
 
 div#Teambuilder{
@@ -50,16 +64,70 @@ div#Teambuilder{
   width: 370px;
   height: 290px;
   margin: 0px;
-  position: relative; top: -460px; right: -531px;
+  position: relative; top: -760px; right: -531px;
   border-radius: 10px;
   border-top-style: solid;
   border-color: hsl(0, 78%, 62%);
   border-top-width: thick;
+  /* box-shadow: 5px 10px #888888 */
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
 }
 
 
 img#tblogo{
   position: relative; top: 65px; right: -120px;
+}
+
+
+
+
+
+/* calculator */
+
+div#Calc {
+  background-color: rgb(252, 252, 252);
+  width: 370px;
+  height: 290px;
+  margin: 0px;
+  position: relative; top: -200px; right: -1030px;
+  border-radius: 10px;
+  border-top-style: solid;
+  border-color: hsl(212, 86%, 64%);
+  border-top-width: thick;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
+}
+
+/* karma */
+
+div#karma {
+  background-color: rgb(252, 252, 252);
+  width: 370px;
+  height: 290px;
+  margin: 0px;
+  position: relative; top: -100px; right: -103px;
+  border-radius: 10px;
+  border-top-style: solid;
+  border-color: hsl(34, 97%, 64%);
+  border-top-width: thick;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
+}
+
+
+div#super {
+  background-color: rgb(252, 252, 252);
+  width: 370px;
+  height: 290px;
+  margin: 0px;
+  position: relative; top: -290px; right: -103px;
+  border-radius: 10px;
+  border-top-style: solid;
+  border-color: hsl(180, 62%, 55%);
+  border-top-width: thick;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
 }
 
 h1,h2,h3,h4,h5,h6,p {

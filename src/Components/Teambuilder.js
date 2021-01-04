@@ -6,7 +6,7 @@ class Teambuilder extends React.Component {
         return(
             <div id="Teambuilder">
                 <br></br>
-                <h4 id="tb">Teambuilder</h4>
+                <h3 id="tb">Teambuilder</h3>
                 <p>Scans our talent to create an optimal team <br></br>for your project </p>
                 <img src={logoteamb} id="tblogo" alt="logo" />
 
