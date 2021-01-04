@@ -67,26 +67,46 @@ h6#skinny{
 
 div#Teambuilder{
   background-color: rgb(252, 252, 252);
-  width: 370px;
-  height: 290px;
+  width: 290px;
+  height: 200px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 40px;
   margin: 0px;
-  position: relative; top: -760px; right: -531px;
-  border-radius: 10px;
+  position: absolute; top: 300px; right: 525px;
+  border-radius: 6px;
   border-top-style: solid;
   border-color: hsl(0, 78%, 62%);
   border-top-width: thick;
-  /* box-shadow: 5px 10px #888888 */
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  text-align: left;
+
+}
+
+img#tblogo{
+  position: absolute; top: 150px; right: 33px;
+}
+
+
+
+/* karma */
+
+div#karma {
+  background-color: rgb(252, 252, 252);
+  width: 290px;
+  height: 200px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 40px;
+  margin: 0px;
+  position: absolute; top: 580px; right: 525px;
+  border-radius: 6px;
+  border-top-style: solid;
+  border-color: hsl(34, 97%, 64%);
+  border-top-width: thick;
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 
 }
-
-
-img#tblogo{
-  position: relative; top: 65px; right: -120px;
-}
-
-
-
 
 
 /* calculator */
@@ -105,21 +125,6 @@ div#Calc {
 
 }
 
-/* karma */
-
-div#karma {
-  background-color: rgb(252, 252, 252);
-  width: 370px;
-  height: 290px;
-  margin: 0px;
-  position: relative; top: -100px; right: -103px;
-  border-radius: 10px;
-  border-top-style: solid;
-  border-color: hsl(34, 97%, 64%);
-  border-top-width: thick;
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-
-}
 
 
 div#super {
@@ -136,7 +141,16 @@ div#super {
 
 }
 
-h1,h2,h3,h4,h5,h6,p {
+h1,h2,h3,h4,h5,h6{
   font-family: 'Poppins', sans-serif;
+  color: hsl(234, 12%, 34%);
+
+}
+
+p{
+  font-family: 'Poppins', sans-serif;
+  color: hsl(229, 6%, 66%);
+  font-weight: 400;
+  font-size: small;
 
 }
