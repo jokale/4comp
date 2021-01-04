@@ -5,9 +5,9 @@ class Karma extends React.Component {
     render(){
         return(
             <div id="karma">
-                <h4>Karma</h4>
+                <h3>Karma</h3>
                 <p>Regularly evaluates our talent to ensure quality</p>
-                <img src={logokarma} id="s-logo" alt="logo" />
+                <img src={logokarma} id="klogo" alt="logo" />
 
             </div>
         )
